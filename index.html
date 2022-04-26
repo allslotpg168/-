@@ -52,7 +52,7 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "ยินดีด้วยคะคุณได้รับเครดิตฟรี 50 เครดิต ",
+        "altText": "ยินดีด้วยคะคุณได้รับเครดิตฟรี 50 ",
     "type": "flex",
     "contents": {
       "type": "carousel",
@@ -218,6 +218,7 @@
       }
     }
   ]
+}
       }])
       if (result) {
         liff.closeWindow()
@@ -241,7 +242,7 @@
     }
     async function main() {
       await liff.init({
-        liffId: "1657088947-yqkelepd"
+        liffId: "1657045126-Yn6kAJQq"
       })
       if (!liff.isLoggedIn()) {
         liff.login()
